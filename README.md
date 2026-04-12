@@ -6,7 +6,7 @@ Institución: Fundación Universitaria Compensar.
 
 ## Hallazgos
 ### 1. Deepseek
-Se realizo la creacion de una cuenta, se configuro desde google coolab la llave secreta donde queda registrada la API KEY, sin embargo, en la ejecucion del programa al relizar peticiones aparece error 404, dando como resultado una conexion fallida con la API. Adicionalmente en la invetigacion realizada se determino que la API de Deepseek funciona con un costo sobre las peticiones realizadas, por lo cual se decidio realizar un cambion en la IA que toma de base el Chatbot para evitar dichos costos.
+Se realizo la creacion de una cuenta, se configuro desde google coolab la llave secreta donde queda registrada la API KEY, sin embargo, en la ejecucion del programa al relizar peticiones aparece error 404, dando como resultado una conexion fallida con la API. Adicionalmente en la invetigacion realizada se determino que la API de Deepseek funciona con un costo sobre las peticiones realizadas, por lo cual se decidio realizar un cambio en la IA que tomara de base el Chatbot para evitar dichos costos.
 
 ### 2. Gemini 
 En vista de la novedades presentadas con la IA anterior, se evaluo la posibilidad de trabajar con Gemini IA como la base para las respuestas del Chatbot. Durante las pruebas realizadas se identificaron las siguiente novedades:
