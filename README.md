@@ -1,2 +1,5 @@
 # CHATBOT
-Se realiza el desarrollo de un chatbot especializado en sistema digitales
+Integrantes: Edwin Stiven Pasto / Julián Romero Bocanegra
+Docente: Diego Alejandro Barragán Vargas
+Institución: Fundación Universitaria Compensar.
+
