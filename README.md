@@ -4,6 +4,17 @@ Docente: Diego Alejandro Barragán Vargas
 Institución: Fundación Universitaria Compensar.
 
 
+## Configuración de la API Key
+
+Este chatbot usa la API de Gemini. Para ejecutarlo necesitas tu propia clave:
+
+1. Ingresa a [Google AI Studio](https://aistudio.google.com/).
+2. Genera una API Key.
+3. Abre el archivo `CHATBOT.py`.
+4. Reemplaza el texto `"API_KEY_GEMINI"` en la variable `API_KEY` por tu clave.
+
+
+
 ## Hallazgos
 ### 1. Deepseek
 Se realizo la creacion de una cuenta, se configuro desde google coolab la llave secreta donde queda registrada la API KEY, sin embargo, en la ejecucion del programa al relizar peticiones aparece error 404, dando como resultado una conexion fallida con la API. Adicionalmente en la invetigacion realizada se determino que la API de Deepseek funciona con un costo sobre las peticiones realizadas, por lo cual se decidio realizar un cambio en la IA que tomara de base el Chatbot para evitar dichos costos.
