@@ -6,7 +6,7 @@ API_KEY = "API_KEY_GEMINI" # Se debe generar una API KEY propia en el enlace htt
 MODELO = "models/gemini-2.5-flash"
 URL = f"https://generativelanguage.googleapis.com/v1beta/{MODELO}:generateContent?key={API_KEY}"
 
-# 2. SEGMENTACION DE RESPUESTAS ESPECIALIZADAS - SISTEMAS DIGITALES
+# SEGMENTACION DE RESPUESTAS ESPECIALIZADAS - SISTEMAS DIGITALES
 SYSTEM_PROMPT = """
 Eres un experto en Sistemas Digitales para Ingeniería de Sistemas.
 Tu comportamiento debe ser amigable y cordial:
@@ -15,7 +15,7 @@ Tu comportamiento debe ser amigable y cordial:
 - Si el usuario pregunta sobre otros temas, responde amablemente que solo asesoras en Sistemas Digitales.
 """
 
-# 3. FUNCION DE PREGUNTA IA - GEMINI
+# FUNCION DE PREGUNTA IA - GEMINI
 def preguntar_gemini(mensaje_usuario):
     payload = {
         "contents": [{
@@ -40,7 +40,7 @@ def preguntar_gemini(mensaje_usuario):
     except Exception as e:
         return f"❌ Error de conexión: {str(e)}"
 
-# 4. INTERFAZ DEL CHATBOT
+# INTERFAZ DEL CHATBOT
 print("🤖 Chatbot Sistemas Digitales (Gemini API)")
 print("Escribe 'salir' para terminar.\n")
 
