@@ -1,4 +1,4 @@
-# CHATBOT. V1
+# CHATBOT - SISTEMAS DIGITALES V2
 Integrantes: Edwin Stiven Pasto / Julián Romero Bocanegra.\
 Docente: Diego Alejandro Barragán Vargas
 Institución: Fundación Universitaria Compensar.
